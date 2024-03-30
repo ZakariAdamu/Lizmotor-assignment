@@ -63,6 +63,7 @@ body {
     background-color: #242468;
 }
 
+
 .b2c2 {
     /* grid-column: 6/8; */
     grid-column: 7/9;
@@ -70,14 +71,14 @@ body {
     background-color: #242468;
 }
 
-.external {
+#research1 {
     /* grid-column: 3/5; */
     grid-column: 5/7;
     grid-row: 4/5;
     background-color: #242468;
 }
 
-.internal {
+#research2 {
     grid-column: 5/7;
     grid-row: 5/6;
     background-color: #242468;
@@ -143,6 +144,7 @@ body {
     grid-column: 3/5;
     grid-row: 4/6;
     background-color: #242468;
+    cursor: pointer;
 
 
 }
@@ -152,6 +154,7 @@ body {
     grid-row: 6/8;
     background-color: #2f9fd3e7;
     color: #111010;
+    cursor: pointer;
 
 }
 
@@ -160,6 +163,7 @@ body {
     grid-row: 8/10;
     background-color: #e2380df6;
     color: #111010;
+    cursor: pointer;
 
 }
 
@@ -168,6 +172,7 @@ body {
     grid-row: 10/12;
     background-color: #ee380b96;
     color: #111010;
+    cursor: pointer;
 
 }
 
@@ -177,4 +182,10 @@ body {
     background-color: #a707f1;
     color: #111010;
 
+}
+
+/* hide other manufacturing phases on smaller screens */
+
+.hide {
+    display: none;
 }

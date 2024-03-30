@@ -13,8 +13,8 @@
 			</div>
 			<div class="online">Online</div>
 			<div class="interview">Interview</div>
-			<div class="external">External</div>
-			<div class="internal">Internal</div>
+			<section id="research1" class="display hide">External</section>
+			<div id="research2" class="display2 hide">Internal</div>
 			<div class="prd">PRD</div>
 			<div class="specs">Specs</div>
 			<div class="b2c1">B2C</div>
@@ -28,55 +28,22 @@
 			<div class="public-data">Public Data</div>
 			<div class="health">Health</div>
 
-			<div class="research">Research</div>
-			<div class="planning">Planning</div>
-			<div class="designing">Designing</div>
+			<div class="research" id="hover-me" onmouseover="mouseOver()">
+				Research
+			</div>
+			<div class="planning" id="hover-me">Planning</div>
+			<div class="designing" id="hover-me">Designing</div>
 			<div class="manufacturing">Manufacturing</div>
 			<div class="sales_marketing">Sales/Marketing</div>
-			<!-- <div>1</div>
-			<div class="nested">
-				<p>External</p>
-				<p>Internal</p>
-			</div>
-			<div class="nested">
-                <p>1</p>
-				<p>2</p>
-            </div>
-			<div class="nested">
-                <p>1</p>
-				<p>2</p>
-            </div>
-			<div>5</div>
-			<div class="nested">
-                <p>1</p>
-				<p>2</p>
-            </div>
-			<div>7</div>
-			<div class="nested">
-                <p>8w</p>
-				<p>2</p>
-            </div>
-			<div>9</div>
-			<div class="nested">
-                <p>1</p>
-				<p>2</p>
-            </div>
-			<div>11</div>
-			<div>12</div>
-			<div>13</div>
-			<div class="nested">
-                <p>1</p>
-				<p>2</p>
-            </div>
-			<div>15</div>
-			<div>16</div>
-			<div>17</div>
-			<div class="nested">
-                <p>1</p>
-				<p>2</p>
-            </div>
-			<div>19</div>
-			<div>20</div> -->
 		</div>
+
+		<!-- <script src="./script.js"></script> -->
+
+		<script>
+			function mouseOver() {
+				document.querySelector(".display").style.display = "grid";
+				document.querySelector(".display2").style.display = "grid";
+			}
+		</script>
 	</body>
 </html>
